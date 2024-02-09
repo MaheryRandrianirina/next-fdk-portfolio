@@ -1,0 +1,11 @@
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 472px; border: none;}
+}
+  
+  /* cursor animations */
+  
+@keyframes animated-cursor{
+    from{border-right-color: $primary;}
+    to{border-right-color: transparent;}
+}
