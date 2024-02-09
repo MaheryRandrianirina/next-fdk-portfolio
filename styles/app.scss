@@ -62,7 +62,6 @@ h2 {
 }
 
 .service {
-    width: 30%;
     height: 500px;
     overflow-y: scroll;
     scrollbar-width: thin;
@@ -191,3 +190,4 @@ h2 {
 @import "./svg.scss";
 @import "./buttons.scss";
 @import "./animations.scss";
+@import "./responsive.scss";

@@ -15,7 +15,7 @@ export const ServicesSection = forwardRef((props, ref:LegacyRef<HTMLElement>)=>{
             qui non seulement répond à vos besoins, mais les dépasse. 
             <a href="#contact" className="nav-link text-primary">Contactez-nous</a> aujourd’hui pour commencer à donner vie à vos idées.
         </p>
-        <div className="d-flex justify-content-between flex-wrap">
+        <div className="d-md-flex justify-content-between flex-wrap">
             <Service className={classnames.services} imgLink={"/vitrine.jpg"} title="Site vitrine">
                 Lorem ipsum dolor sit amet consectetur, 
             </Service>
@@ -34,7 +34,7 @@ const Service: FC<PropsWithChildren & {
     style?: CSSProperties
 }> = ({children, className, title, imgLink, style})=>{
 
-    return <div style={style} className={"service card position-relative" + (className ? " " + className : "")}>
+    return <div style={style} className={"service card position-relative col-12 col-md-6 mb-sm-5" + (className ? " " + className : "")}>
         <div className="card-header">
         <h5 className="card-title text-center">{title}</h5>
         </div>

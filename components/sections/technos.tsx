@@ -16,8 +16,8 @@ export const Technos = forwardRef((props, ref: LegacyRef<HTMLElement>)=>{
     
     return <section style={{marginBottom: "100px"}} id="technologies" className={"px-4"} ref={ref}>
         <h2 className={"title text-center text-light " + (classnames.technos)} style={{marginBottom: "24px"}}>Technologies</h2>
-        <div className="d-flex justify-content-between align-items-center">
-            <div style={{marginBottom: "48px"}} className="text-light w-50">
+        <div className="d-md-flex justify-content-between align-items-center">
+            <div style={{marginBottom: "48px"}} className="mx-auto mt-0 text-light col-12 col-md-6 text-center text-md-left">
                 <p className={"description " + (classnames.technos)}>
                     <span>Passionnés par la résolution de problèmes</span>
                     <span>et le développement web, nous maîtrisons </span> 
@@ -27,7 +27,7 @@ export const Technos = forwardRef((props, ref: LegacyRef<HTMLElement>)=>{
                     <span>utilisateur exceptionnelle.</span>
                 </p>
             </div>
-            <div className="list w-50">
+            <div className="list col-12 col-md-6 mx-sm-auto my-sm-0">
                 <div className="first d-flex justify-content-center mb-2">
                     <div className={"d-flex justify-content-center border techno align-items-center me-2 " + (classnames.technos)}>
                         <HTML/><p className="text-light mb-0 ms-1">HTML</p>
