@@ -80,11 +80,8 @@ export const Contact = forwardRef((props, ref:LegacyRef<HTMLElement>)=>{
                     <label htmlFor="">Message</label>
                     <textarea onChange={handleChangeMessage} name="message" className="form-control" id="" placeholder="Ecrire quelque chose"></textarea>
                 </div>
-                <button className="btn btn-primary text-light mt-4">Envoyer le message 
-                    {isLoading && <div className="lds-loader">
-                        <div></div><div></div><div></div><div></div><div></div>
-                        <div></div><div></div><div></div>
-                    </div>}
+                <button className="btn btn-primary text-light mt-4" disabled={isLoading}>
+                    {isLoading ? "Envoi..." : "Envoyer le message "}
                 </button>
             </form>
         </div>
