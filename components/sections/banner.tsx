@@ -8,7 +8,10 @@ export const Banner = forwardRef((props, ref: LegacyRef<HTMLElement>)=>{
         <div className="ms-2 w-md-50">
             <div style={{width: "350px"}} className="mx-sm-auto my-sm-0 ">
                 <h1 className="text-light" style={{marginBottom: "24px"}}>FDK - Fast Data Keys</h1>
-                <p className="text-light" style={{marginBottom: "24px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident modi expedita sint autem, voluptatum tempora mollitia at, omnis, voluptatem dolores deleniti vitae facilis? Autem deserunt fugit fuga possimus sequi dolorem?</p>
+                <p className="text-light" style={{marginBottom: "24px"}}>
+                    Du code propre, des designs captivants, des solutions innovantes.
+                    <span className="text-bold">Créons ensemble des sites web qui marquent les esprits.</span>
+                </p>
                 <PrimaryButton className="cta">
                     <a href="#contact" className="text-light text-decoration-none">Nous contacter</a>
                 </PrimaryButton> 

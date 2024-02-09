@@ -9,3 +9,13 @@
     from{border-right-color: $primary;}
     to{border-right-color: transparent;}
 }
+
+/* loaders */
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
