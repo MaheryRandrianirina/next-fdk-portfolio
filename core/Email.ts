@@ -39,7 +39,7 @@ export default class EmailSender {
             const transporter = this.transporter as Transporter;
             transporter.sendMail({
                 from: "emailing@emailing.fastdatakeys.com",
-                to: "maheryrandrianirina2000@gmail.com",
+                to: "odonjoel1251@gmail.com",
                 subject: "Contact prospect",
                 text: "Envoyeur : " + this.adressee.email + ". Message : " + this.adressee.message,
                 html: messageHtml
