@@ -30,6 +30,10 @@
     #technologies.px-4 {
         padding-left: 15px !important;
         padding-right: 15px !important;
+
+        p.description span {
+            font-size: 14px;
+        }
     }
     @keyframes animated-text{
         from{width: 0;}
