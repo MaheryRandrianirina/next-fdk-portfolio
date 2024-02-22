@@ -7,12 +7,12 @@ export default class EmailSender {
     {
 
         this.transporter = createTransport({
-            host: 'smtp.hostinger.com',
+            host: process.env.SMTP_HOST,
             secure: true,
             port: 465,
             auth: {
-                user: "emailing@emailing.fastdatakeys.com",
-                pass: "FastData@2023!"
+                user: process.env.SMTP_USER,
+                pass: process.env.SMTP_PASSWORD
             },
             tls: {
                 rejectUnauthorized: false
@@ -38,8 +38,8 @@ export default class EmailSender {
 
             const transporter = this.transporter as Transporter;
             transporter.sendMail({
-                from: "emailing@emailing.fastdatakeys.com",
-                to: "odonjoel1251@gmail.com",
+                from: process.env.SMTP_USER,
+                to: process.env.SMTP_TO_ADRESS,
                 subject: "Contact prospect",
                 text: "Envoyeur : " + this.adressee.email + ". Message : " + this.adressee.message,
                 html: messageHtml
