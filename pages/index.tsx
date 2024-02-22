@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-
+import script from "next/script";
 import { 
     Dispatch, 
     MouseEventHandler,
@@ -104,7 +104,7 @@ export default function Portfolio(): ReactElement {
             </ClassnamesContext.Provider>
         </div>
         <footer className="bg-light text-dark p-4 text-center text-bold">(C) Copyright : FDK 2023 - 2024</footer>
-        
+        <script src="/bootstrap.js"></script>
     </div>
 }
 

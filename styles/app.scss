@@ -11,6 +11,10 @@ html, body {
 
 nav.navbar.navbar-expand-lg {
     z-index: 10;
+    .navbar-toggler svg{
+        fill: $primary;
+        width: 30px;
+    }
 }
 .nav-item::before {
     content: "";

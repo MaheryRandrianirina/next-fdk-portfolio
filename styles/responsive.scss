@@ -4,7 +4,39 @@
     }
 }
 
+@media only screen and (max-width:576px){
+    .mx-sm-auto {
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+
+    .mb-sm-5 {
+        margin-bottom: 3rem !important;
+    }
+}
+
+@media only screen and (max-width:405px){
+    #portfolio .container #banner {
+        padding-top: 200px !important;
+        .intro, .programming-svg {
+            width: 80% !important;
+        }
+
+        .programming-svg {
+            display: block;
+            height: 250px;
+        }
+    }
+}
+
 @media only screen and (max-width:791px){
+    .navbar.navbar-expand-lg .navbar-brand {
+        margin-left: 0 !important;
+    }
+    #banner {
+        padding-top: 180px !important;
+    }
+
     #contact .intro, #contact form {
         width: 100% !important;
     }
