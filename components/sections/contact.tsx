@@ -59,10 +59,10 @@ export const Contact = forwardRef((props, ref:LegacyRef<HTMLElement>)=>{
         });
     }
 
-    return <section ref={ref} id="contact" className={"px-4 flex-md-row " + classnames.contact}  style={{marginBottom: "100px"}}>
+    return <section ref={ref} id="contact" className={"px-4 " + classnames.contact}  style={{marginBottom: "100px"}}>
         <h2 style={{marginBottom: "48px"}} className="text-light text-center">Nous contacter</h2>
-        <div className="d-flex justify-content-between flex-wrap">
-            <div className="text-light w-50">
+        <div className="d-md-flex justify-content-between flex-wrap">
+            <div className="intro text-light w-50">
                 <p className="border text-light p-2 rounded shadow-sm">Vous avez une question, un projet en tête ou simplement envie de dire bonjour ?</p>
                 <p className="border text-light p-2 rounded shadow-sm">N’hésitez pas à nous contacter !</p>
                 <p className="border text-light p-2 rounded shadow-sm">Nous sommes toujours ravis d’entendre de nouvelles idées et de rencontrer de nouvelles personnes.</p>

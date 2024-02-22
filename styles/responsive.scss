@@ -3,3 +3,13 @@
         width: 30%;
     }
 }
+
+@media only screen and (max-width:791px){
+    #contact .intro, #contact form {
+        width: 100% !important;
+    }
+
+    #contact .intro {
+        margin-bottom: 24px;
+    }
+}
