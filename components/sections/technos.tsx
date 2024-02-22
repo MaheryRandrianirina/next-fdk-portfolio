@@ -36,7 +36,7 @@ export const Technos = forwardRef((props, ref: LegacyRef<HTMLElement>)=>{
                         <CSS/><p className="text-light mb-0 ms-1">CSS</p>
                     </div>
                 </div>
-                <div className="second d-flex justify-content-center mb-2">
+                <div className="second d-flex justify-content-center mb-2 flex-wrap">
                     <div className={"d-flex justify-content-center border techno align-items-center me-2 " + (classnames.technos)}>
                         <PHP/><p className="text-light mb-0 ms-1">PHP</p>
                     </div>
@@ -46,7 +46,7 @@ export const Technos = forwardRef((props, ref: LegacyRef<HTMLElement>)=>{
                     <div className={"d-flex justify-content-center border techno align-items-center me-2 " + (classnames.technos)}>
                         <WP/><p className="text-light mb-0 ms-1">Wordpress</p>
                     </div>
-                    <div className={"d-flex justify-content-center border techno align-items-center me-2 " + (classnames.technos)}>
+                    <div className={"d-flex justify-content-center mt-2 border techno align-items-center me-2 " + (classnames.technos)}>
                         <Laravel/><p className="text-light mb-0 ms-1">Laravel</p>
                     </div>
                 </div>

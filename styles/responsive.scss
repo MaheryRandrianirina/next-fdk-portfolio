@@ -5,17 +5,6 @@
 }
 
 @media only screen and (max-width:576px){
-    .mx-sm-auto {
-        margin-right: auto !important;
-        margin-left: auto !important;
-    }
-
-    .mb-sm-5 {
-        margin-bottom: 3rem !important;
-    }
-}
-
-@media only screen and (max-width:405px){
     #portfolio .container #banner {
         padding-top: 200px !important;
         .intro, .programming-svg {
@@ -25,7 +14,26 @@
         .programming-svg {
             display: block;
             height: 250px;
+            margin-top: 24px !important;
         }
+    }
+
+    .mx-sm-auto {
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+
+    .mb-sm-5 {
+        margin-bottom: 3rem !important;
+    }
+    
+    #technologies.px-4 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    @keyframes animated-text{
+        from{width: 0;}
+        to{width: auto; border: none;}
     }
 }
 
