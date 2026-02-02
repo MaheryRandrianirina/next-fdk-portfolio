@@ -16,6 +16,11 @@ nav.navbar.navbar-expand-lg {
         width: 30px;
     }
 }
+
+#banner {
+    padding-top: 140px;
+}
+
 .nav-item::before {
     content: "";
     transition: background .3s cubic-bezier(0.42, 0, 0, 1.21);
