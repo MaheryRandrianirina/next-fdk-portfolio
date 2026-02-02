@@ -103,7 +103,7 @@ export default function Portfolio(): ReactElement {
                 <Contact ref={ref4}/>
             </ClassnamesContext.Provider>
         </div>
-        <footer className="bg-light text-dark p-4 text-center text-bold">(C) Copyright : FDK 2023 - 2024</footer>
+        <footer className="bg-light text-dark p-4 text-center text-bold">© 2026 Mahery Randrianirina. Tous droits réservés</footer>
         <script src="/bootstrap.js"></script>
     </div>
 }
