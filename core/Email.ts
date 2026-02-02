@@ -7,15 +7,10 @@ export default class EmailSender {
     {
 
         this.transporter = createTransport({
-            host: process.env.SMTP_HOST,
-            secure: true,
-            port: 465,
+            service: "gmail",
             auth: {
                 user: process.env.SMTP_USER,
                 pass: process.env.SMTP_PASSWORD
-            },
-            tls: {
-                rejectUnauthorized: false
             }
         }); 
     }
