@@ -7,7 +7,7 @@ const Header: FC<{
     active: activeItemType
 }> = ({active})=>{
     
-    return <nav className="navbar navbar-expand-lg p-5 position-fixed top-0 start-0 end-0 bg-dark">
+    return <nav className="navbar navbar-expand-lg p-2 position-fixed top-0 start-0 end-0 bg-dark">
     <div className="container-fluid">
       <a className="navbar-brand text-light ms-5" href="#">
         <Image src="/logo.png" alt=""  width="150" height="60"/>
