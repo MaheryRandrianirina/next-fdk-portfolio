@@ -6,7 +6,6 @@
 
 @media only screen and (max-width:576px){
     #portfolio .container #banner {
-        padding-top: 140px !important;
         .intro, .programming-svg {
             width: 80% !important;
         }
@@ -44,9 +43,6 @@
 @media only screen and (max-width:791px){
     .navbar.navbar-expand-lg .navbar-brand {
         margin-left: 0 !important;
-    }
-    #banner {
-        padding-top: 140px !important;
     }
 
     #contact .intro, #contact form {
