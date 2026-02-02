@@ -95,7 +95,7 @@ export default function Portfolio(): ReactElement {
             <Header active={activeItem}/>
         </ClickMenuContext.Provider>
 
-        <div className="container">
+        <div className="container mt-3">
             <ClassnamesContext.Provider value={classnames}>
                 <Banner ref={ref1}/>
                 <ServicesSection ref={ref2}/>
